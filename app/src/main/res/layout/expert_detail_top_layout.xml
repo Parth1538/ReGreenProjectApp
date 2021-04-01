@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/expertTopContainer"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/profile_pic_banner_height"
+    android:background="#80000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgExpertImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_pic_banner_height"
+            android:layout_centerInParent="true"
+            android:foreground="#80000000"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_cactus" />
+
+        <TextView
+            android:id="@+id/txtExpertNameDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txtExpertDegreeDetail"
+            android:layout_above="@+id/txtExpertDegreeDetail"
+            android:text="Expert Name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/expert_name_size" />
+
+        <ImageView
+            android:id="@+id/imgInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/i"
+            android:layout_toRightOf="@id/txtExpertNameDetail"
+            android:layout_alignTop="@+id/txtExpertNameDetail"
+            android:layout_marginLeft="11dp"/>
+
+
+        <TextView
+            android:id="@+id/txtExpertDegreeDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="@dimen/card_view_fragment_elevation"
+            android:layout_marginLeft="@dimen/card_view_fragment_elevation"
+            android:text="Degree"
+            android:textColor="@color/white"
+            android:textSize="@dimen/expert_degree_size" />
+
+    </RelativeLayout>
+</LinearLayout>

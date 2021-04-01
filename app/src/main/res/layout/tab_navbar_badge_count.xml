@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_bar_badge_id"
+    android:layout_width="15dp"
+    android:layout_height="15dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@drawable/rounded_textview"
+    android:gravity="center_vertical|center_horizontal"
+    android:textSize="11sp"
+    android:textColor="@color/white">
+
+</TextView>

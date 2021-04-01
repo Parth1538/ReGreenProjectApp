@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/maintence">
+
+        <TextView
+            android:id="@+id/txtMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/maintenance_top_margin"
+            android:text="Under Maintenance"
+            android:textColor="@color/profile_points_orange"
+            android:textSize="@dimen/app_name_size" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_btn_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/login_btn_height"
+            android:layout_marginLeft="@dimen/login_edittext_margin"
+            android:layout_marginRight="@dimen/login_edittext_margin"
+            android:background="@drawable/signin_signup_button"
+            android:text="Ok"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

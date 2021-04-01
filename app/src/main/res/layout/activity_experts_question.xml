@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/Theme.MyToolTheme">
+
+        </android.support.v7.widget.Toolbar>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/ivattachment1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_expert_attachment" />
+
+                <ImageView
+                    android:id="@+id/ivattachment2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="@dimen/dimen_10"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_expert_attachment" />
+
+                <ImageView
+                    android:id="@+id/ivattachment3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/dimen_10"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_expert_attachment" />
+
+                <ImageView
+                    android:id="@+id/ivattachment4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="@dimen/dimen_10"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_expert_attachment" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_20"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtquestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dimen_40"
+                    android:background="@drawable/rounded_corner_button_common"
+                    android:gravity="center_vertical"
+                    android:hint="Question"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textColorHint="@color/blur_common_black"
+                    android:textSize="@dimen/fontsize_login" />
+
+                <EditText
+                    android:id="@+id/edtdescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="@dimen/dimen_40"
+                    android:layout_marginTop="@dimen/dimen_40"
+                    android:background="@drawable/rounded_corner_button_common"
+                    android:gravity="left"
+                    android:hint="description"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textColorHint="@color/blur_common_black"
+                    android:textSize="@dimen/fontsize_login" />
+
+
+                <TextView
+                    android:id="@+id/txtsubmit"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginTop="@dimen/dimen_20"
+                    android:background="@drawable/signin_signup_button"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:padding="6dp"
+                    android:text="Submit"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/fontsize_login" />
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

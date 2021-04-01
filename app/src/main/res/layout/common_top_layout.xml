@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <RelativeLayout
+        android:id="@+id/top_prof"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/user_profile_pic"
+            android:layout_height="@dimen/user_profile_pic"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/login_relativelayout_allpadding"
+            android:src="@drawable/upload_photo" />
+
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/login_relativelayout_allpadding"
+            android:layout_toRightOf="@id/profile_image"
+            android:text="Person1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sign_up_text" />
+
+        <RelativeLayout
+            android:id="@+id/rl_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/txtUserName"
+            android:layout_below="@id/txtUserName"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/homescreenLeftImage"
+                android:layout_width="@dimen/profile_up_width"
+                android:layout_height="@dimen/profile_up_height"
+                android:layout_alignParentLeft="true"
+                android:background="@color/profile_arrow_orange"
+                android:elevation="5dp">
+
+                <ImageView
+                    android:id="@+id/imgmenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/upload_bill" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/homescreentext"
+                android:layout_width="@dimen/home_screen_text_container_width"
+                android:layout_height="@dimen/home_screen_text_container_height"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/homescreenLeftImage"
+                android:background="@color/profile_points_orange">
+
+                <TextView
+                    android:id="@+id/txtPoints"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/default_title_indicator_clip_padding"
+                    android:gravity="center"
+                    android:text="@string/total_points"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/homescreenRightImage"
+                android:layout_width="@dimen/profile_redeem_width"
+                android:layout_height="@dimen/profile_redeem_height"
+                android:layout_toRightOf="@id/homescreentext"
+                android:background="@color/profile_arrow_orange"
+                android:elevation="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/redeem" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

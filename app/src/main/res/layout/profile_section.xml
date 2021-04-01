@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_prof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/common_gray">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_relativelayout_allpadding"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/login_relativelayout_allpadding"
+                android:src="@drawable/upload_photo"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person1"
+                android:textSize="@dimen/sign_up_text"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/profile_image"
+                android:layout_marginLeft="@dimen/login_relativelayout_allpadding"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtName"
+                android:layout_alignLeft="@id/txtName"
+                android:layout_marginTop="@dimen/login_relativelayout_allpadding"
+                android:layout_marginLeft="@dimen/login_relativelayout_allpadding">
+                <RelativeLayout
+                    android:id="@+id/homescreenLeftImage"
+                    android:layout_width="51dp"
+                    android:layout_height="51dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@color/colorPrimary">
+                    <ImageView
+                        android:id="@+id/imgmenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/backnav"
+                        android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/homescreentext"
+                    android:layout_width="135dp"
+                    android:layout_height="41dp"
+                    android:layout_toRightOf="@id/homescreenLeftImage"
+                    android:layout_centerVertical="true"
+                    android:background="@color/colorAccent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total_points"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/homescreenRightImage"
+                    android:layout_width="51dp"
+                    android:layout_height="51dp"
+                    android:layout_toRightOf="@id/homescreentext"
+                    android:background="@color/colorPrimary"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/move_nex"
+                        android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

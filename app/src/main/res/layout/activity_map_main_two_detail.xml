@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+<LinearLayout
+    android:id="@+id/llNurPlanAvail"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/white_cont_width"
+    android:layout_margin="@dimen/margins"
+    android:background="@mipmap/tut_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNurPlanAvail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blur_common_black"
+        android:gravity="center"
+        android:text="Plants Available"
+        android:textColor="@color/white"
+        android:textSize="@dimen/reward_size" />
+</LinearLayout>
+
+<!--<LinearLayout
+android:id="@+id/llNurToolsAvail"
+android:layout_width="match_parent"
+android:layout_height="@dimen/white_cont_width"
+android:background="@mipmap/tut_bg"
+android:layout_margin="@dimen/margins"
+android:gravity="center"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/txtNurToolsAvail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/blur_common_black"
+    android:textColor="@color/white"
+    android:textSize="@dimen/reward_size"
+    android:text="Tools Available" />
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAboutUS"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/white_cont_width"
+        android:background="@mipmap/tut_bg"
+        android:layout_margin="@dimen/margins"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@color/blur_common_black"
+            android:textColor="@color/white"
+            android:textSize="@dimen/reward_size"
+            android:text="About Our Nursery" />
+    </LinearLayout>-->
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarNursery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/toolbarTheme"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/toolbar_title_nursery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nursery_title"
+            android:textColor="@android:color/black"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_gravity="center"
+            />
+    </android.support.v7.widget.Toolbar>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewNursery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"/>
+        <!--android:layout_below="@id/toolbarNursery"-->
+
+
+</RelativeLayout>

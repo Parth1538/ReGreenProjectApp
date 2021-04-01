@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/tut_bg"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:orientation="vertical"
+            >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="405dp"
+            android:layout_marginLeft="@dimen/congrates_margin"
+            android:layout_marginRight="@dimen/congrates_margin"
+            android:layout_marginBottom="@dimen/congrates_margin"
+            android:layout_marginTop="@dimen/congrates_top_margin"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtCongratulationsHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Coming Soon"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textSize="@dimen/discount_amount_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/btnFinishContainer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_button_height"
+                android:layout_marginLeft="@dimen/welcome_margin"
+                android:layout_marginRight="@dimen/welcome_margin"
+                android:background="@drawable/signin_signup_button"
+                android:layout_below="@id/edtConfirmPassword">
+
+                <TextView
+                    android:id="@+id/txtRedeem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ok"
+                    android:layout_centerInParent="true"
+                    android:textSize="@dimen/fontsize_login"
+                    android:textColor="@color/white"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kf.regreen.regreenproject.Fragments.AboutOurNurseryFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imgNurseryBanner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/nursery_background_height"
+            android:src="@mipmap/tut_bg"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/txtNurseryNameN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nursery Name:"
+            android:textColor="@color/already_acc"
+            android:textSize="@dimen/nur_info_txt"
+            android:layout_below="@id/imgNurseryBanner"/>
+
+        <TextView
+            android:id="@+id/txtNurseryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgNurseryBanner"
+            android:layout_toRightOf="@+id/txtNurseryNameN"
+            android:gravity="center"
+            android:text="Anand Nursery"
+            android:textColor="@color/already_acc"
+            android:textSize="@dimen/nur_info_txt" />
+
+        <TextView
+            android:id="@+id/txtAddressN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNurseryName"
+            android:gravity="center"
+            android:text="Address:"
+            android:textColor="@color/already_acc"
+            android:textSize="@dimen/nur_info_txt" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNurseryName"
+            android:layout_toRightOf="@+id/txtAddressN"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="@dimen/margins"
+            android:text="Address"
+            android:textColor="@color/already_acc"
+            android:textSize="@dimen/nur_info_txt" />
+
+        <TextView
+            android:id="@+id/txtContNameN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAddress"
+            android:gravity="center"
+            android:text="Contact Name:"
+            android:textColor="@color/already_acc"
+            android:textSize="@dimen/nur_info_txt" />
+
+        <TextView
+            android:id="@+id/txtContName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAddress"
+            android:layout_toRightOf="@+id/txtContNameN"
+            android:gravity="center"
+            android:text="Mayur"
+            android:textColor="@color/already_acc"
+            android:textSize="@dimen/nur_info_txt" />
+
+        <TextView
+            android:id="@+id/txtContNoN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtContNameN"
+            android:gravity="center"
+            android:text="Contact No:"
+            android:textColor="@color/already_acc"
+            android:textSize="@dimen/nur_info_txt" />
+
+        <TextView
+            android:id="@+id/txtContNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtContNameN"
+            android:layout_toRightOf="@+id/txtContNoN"
+            android:gravity="center"
+            android:text="98798749845"
+            android:textColor="@color/already_acc"
+            android:textSize="@dimen/nur_info_txt" />
+    </RelativeLayout>
+
+</RelativeLayout>

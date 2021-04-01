@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Sign In Screen-->
+
+    <dimen name="login_top_toolbar_height">180dp</dimen>
+    <dimen name="login_main_container_height">225dp</dimen>
+    <dimen name="login_relativelayout_allpadding">11dp</dimen>
+    <dimen name="login_btn_top_margin">51dp</dimen>
+    <dimen name="login_btn_width">151dp</dimen>
+    <dimen name="login_btn_height">35dp</dimen>
+    <dimen name="login_btn_margin_left_and_right">45dp</dimen>
+    <dimen name="signin_top_margin">58dp</dimen>
+    <dimen name="login_edittext_margin">31dp</dimen>
+    <dimen name="login_edittext_height">41dp</dimen>
+    <dimen name="social_login_width">121dp</dimen>
+    <dimen name="social_login_height">35dp</dimen>
+    <dimen name="social_login_margin_left_and_right">29dp</dimen>
+    <dimen name="google_fb_margin_left_and_right">17dp</dimen>
+    <dimen name="social_login_margin_bottom">101dp</dimen>
+    <dimen name="social_button_text">15sp</dimen>
+    <dimen name="sign_up_text">19sp</dimen>
+    <dimen name="sign_up_height">35dp</dimen>
+    <dimen name="signup_bottom_margin">15dp</dimen>
+    <dimen name="signup_detail_container_height">350dp</dimen>
+    <dimen name="social_login__footer_height">35dp</dimen>
+    <dimen name="fontsize_login">15sp</dimen>
+    <dimen name="gender_left_margin">2dp</dimen>
+    <dimen name="donothaveaccount_margin">71dp</dimen>
+    <dimen name="uploadPhotoheightwidth">101dp</dimen>
+    <dimen name="explore_height">43dp</dimen>
+    <dimen name="profile_up_height">45dp</dimen>
+    <dimen name="profile_up_width">45dp</dimen>
+    <dimen name="profile_redeem_height">42dp</dimen>
+    <dimen name="profile_redeem_width">45dp</dimen>
+    <dimen name="common_bottom_tab">51dp</dimen>
+    <dimen name="common_button_height">51dp</dimen>
+    <dimen name="maintenance_top_margin">146dp</dimen>
+    <dimen name="grid_font">12sp</dimen>
+
+    <dimen name="sign_up_social_margin">77dp</dimen>
+    <dimen name="sign_up_fb_margin">11dp</dimen>
+    <dimen name="explore_margin">5dp</dimen>
+
+    <!--VERIFICATION SCREEN-->
+    <dimen name="verification_container_height">335dp</dimen>
+    <dimen name="verification_pinview_height">51dp</dimen>
+
+
+    <!--HOME SCREEN-->
+    <dimen name="toolbar_height">101dp</dimen>
+    <dimen name="recycler_view_top_margin">151dp</dimen>
+    <dimen name="recycler_view_content_top_margin">25dp</dimen>
+    <dimen name="recycler_image_height">201dp</dimen>
+    <dimen name="name_text">17sp</dimen>
+    <dimen name="time_text">15sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="home_screen_text_container_width">135dp</dimen>
+    <dimen name="home_screen_text_container_height">36dp</dimen>
+    <dimen name="user_profile_pic">90dp</dimen>
+
+    <!--Fragment Text-->
+    <dimen name="app_name_size">25sp</dimen>
+    <dimen name="welcome_size">17sp</dimen>
+    <dimen name="skip_width">151dp</dimen>
+    <dimen name="skip_height">35dp</dimen>
+    <dimen name="card_view_fragment_height">421dp</dimen>
+    <dimen name="card_view_fragment_elevation">15dp</dimen>
+    <dimen name="card_view_margin_left_right">51dp</dimen>
+
+    <!--WELCOME SCREEN-->
+    <dimen name="welcome_margin">51dp</dimen>
+    <dimen name="skip_size">11sp</dimen>
+    <dimen name="welcome_top_margin">51dp</dimen>
+    <dimen name="skip_top_margin">71dp</dimen>
+    <dimen name="skip_right_margin">51dp</dimen>
+
+    <!--ScanActivity-->
+    <dimen name="scan_frame_h_w">360dp</dimen>
+
+
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="lbl_directory">14dp</dimen>
+    <dimen name="lbl_movie_name">28dp</dimen>
+    <dimen name="img_poster_height">220dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="scan_size">300dp</dimen>
+
+    <integer name="scan_rect">300</integer>
+
+    <!--CONGRATULATIONS-->
+    <dimen name="congrates_top_margin">45dp</dimen>
+    <dimen name="congrates_margin">11dp</dimen>
+    <dimen name="congratulationsHeading_top_margin">31dp</dimen>
+    <dimen name="congratulationsHeading_size">21sp</dimen>
+    <dimen name="discount_amount_size">51sp</dimen>
+    <dimen name="discount_message_left_right">21dp</dimen>
+    <dimen name="you_got">18dp</dimen>
+
+    <!--NURSERY-->
+    <dimen name="nursery_background_height">185dp</dimen>
+    <dimen name="nursery_left_right_margin">11dp</dimen>
+    <dimen name="nursery_name_size">21sp</dimen>
+    <dimen name="grid_w_h">112dp</dimen>
+    <dimen name="margin_top_nur">11dp</dimen>
+    <dimen name="margin_top_nur_name">71dp</dimen>
+
+
+
+   <!-- &lt;!&ndash;UPLOAD BILL&ndash;&gt;
+    <dimen name="upload_bill_card_height">521dp</dimen>
+    <dimen name="upload_bill_top_margin">21dp</dimen>
+    <dimen name="upload_bill_text_size">21sp</dimen>
+    <dimen name="upload_bill_card_size">101dp</dimen>
+    <dimen name="upload_bill_margin">101dp</dimen>
+    <dimen name="upload_bill_margin_bottom">42dp</dimen>
+    <dimen name="upload_bill_button_margin_top">25dp</dimen>
+    <dimen name="upload_bill_image_container_height_width">151dp</dimen>
+    <dimen name="upload_bill_image_container_margin_left">21dp</dimen>
+    <dimen name="upload_bill_image_container_margin_top">11dp</dimen>
+    <dimen name="upload_bill_title_text_size">19sp</dimen>
+    <dimen name="upload_bill_margin_top">54dp</dimen>
+    <dimen name="upload_bill_margin_right">51dp</dimen>
+    <dimen name="upload_bill_amount_margin_top">25dp</dimen>
+    <dimen name="upload_bill_amount_margin_left">21dp</dimen>
+    <dimen name="upload_edit_bill_amount_margin_left">21dp</dimen>
+    <dimen name="upload_edit_bill_amount_margin_top">15dp</dimen>
+    <dimen name="ic_cam_gal">48dp</dimen>
+    <dimen name="upload_bill_camera_margin_top">71dp</dimen>
+    <dimen name = "upload_bill_card_radius">12dp</dimen>
+    <dimen name = "upload_bill_card_elevation">5dp</dimen>
+    <dimen name="upload_bill_image_container_height">191dp</dimen>-->
+
+    <!--MapActivity-->
+    <dimen name="map_left_margin">48dp</dimen>
+
+    <!--User Profile-->
+    <dimen name = "user_profile_cardview_height">501dp</dimen>
+    <dimen name = "user_profile_cardview_margin_start">7dp</dimen>
+    <dimen name = "user_profile_cardview_margin_top">91dp</dimen>
+    <dimen name = "user_profile_cardview_corner_radius">12dp</dimen>
+    <dimen name = "user_profile_cardview_card_elevation">4dp</dimen>
+    <dimen name = "user_profile_name_margin_left">11dp</dimen>
+<!--
+    <dimen name = "user_profile_name_margin_right"></dimen>
+-->
+    <dimen name = "user_profile_name_margin_top">81dp</dimen>
+    <dimen name = "user_profile_email_margin_top">131dp</dimen>
+    <dimen name = "user_profile_gender_margin_top">181dp</dimen>
+    <dimen name = "user_profile_pointslabel_margin_top">211dp</dimen>
+    <dimen name = "user_profile_city_margin_top">251dp</dimen>
+    <dimen name = "user_profile_birthdate_margin_top">301dp</dimen>
+    <dimen name = "user_profile_mobileno_margin_top">351dp</dimen>
+    <dimen name = "user_profile_changepassword_margin_top">401dp</dimen>
+    <dimen name = "user_profile_edittext_height">41dp</dimen>
+
+    <dimen name = "user_profile_pic_cardview_width">121dp</dimen>
+    <dimen name = "user_profile_pic_cardview_height">121dp</dimen>
+    <dimen name = "user_profile_pic_cardview_margin_top">51dp</dimen>
+    <dimen name = "user_profile_pic_cardview_corner_radius">12dp</dimen>
+    <dimen name = "user_profile_pic_cardview_card_elevation">4dp</dimen>
+
+    <dimen name = "user_profile_pic_image_width">51dp</dimen>
+    <dimen name = "user_profile_pic_image_height">51dp</dimen>
+
+
+    <!--PROFILE-->
+    <dimen name = "profile_margin_top">21dp</dimen>
+
+    <!--EXPERTS SCREEN-->
+    <dimen name="expert_margin_top">131dp</dimen>
+    <dimen name="common_expert_heading">41dp</dimen>
+    <dimen name="common_expert_left_right_margin">11dp</dimen>
+    <dimen name="expert_name_size">17sp</dimen>
+    <dimen name="expert_degree_size">11sp</dimen>
+    <dimen name="expert_description_size">15sp</dimen>
+    <dimen name="expert_screen_left_right_margin">11dp</dimen>
+
+    <!--EXPERT DETAILS SCREEN-->
+    <dimen name="expert_name_detail">21sp</dimen>
+    <dimen name="expert_degree_detail">11sp</dimen>
+    <dimen name="expert_detail_top_margin">5dp</dimen>
+    <dimen name="expert_detail_image_height_width">51dp</dimen>
+
+    <dimen name="minus">-30dp</dimen>
+    <dimen name="profile_pic_banner_height">160dp</dimen>
+
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    <!--Get bill-->
+    <dimen name="white_cont_width">120dp</dimen>
+    <dimen name="orang_cont_width">98dp</dimen>
+    <dimen name="image_height">21dp</dimen>
+    <dimen name="margins">5dp</dimen>
+    <dimen name="reward_size">16sp</dimen>
+    <dimen name="recycle_margin">15dp</dimen>
+    <dimen name="amt_text_size">16sp</dimen>
+    <dimen name="my_reward">10sp</dimen>
+    <dimen name="reward_height">72dp</dimen>
+
+    <!--Nursery-->
+    <dimen name="nur_info_txt">12sp</dimen>
+    <dimen name="nur_detail">13sp</dimen>
+
+    <!--UPLOAD BILL-->
+    <dimen name="upload_bill_card_height">351dp</dimen>
+    <dimen name="upload_bill_top_margin">21dp</dimen>
+    <dimen name="upload_bill_edt_top_margin">7dp</dimen>
+    <dimen name="upload_bill_text_size">12sp</dimen>
+    <dimen name="upload_bill_card_size">21dp</dimen>
+    <dimen name="upload_bill_margin">101dp</dimen>
+    <dimen name="upload_bill_margin_bottom">42dp</dimen>
+    <dimen name="upload_bill_button_margin_top">25dp</dimen>
+    <dimen name="upload_bill_image_container_height_width">81dp</dimen>
+    <dimen name="upload_bill_image_container_margin_left">21dp</dimen>
+    <dimen name="upload_bill_image_container_margin_top">11dp</dimen>
+    <dimen name="upload_bill_title_text_size">19sp</dimen>
+    <dimen name="upload_bill_margin_top">54dp</dimen>
+    <dimen name="upload_bill_margin_right">31dp</dimen>
+    <dimen name="upload_bill_amount_margin_top">25dp</dimen>
+    <dimen name="upload_bill_amount_margin_left">21dp</dimen>
+    <dimen name="upload_edit_bill_amount_margin_left">21dp</dimen>
+    <dimen name="upload_edit_bill_amount_margin_top">15dp</dimen>
+    <dimen name="ic_cam_gal">48dp</dimen>
+    <dimen name="upload_bill_camera_margin_top">41dp</dimen>
+    <dimen name="upload_bill_camera_margin_bottom">31dp</dimen>
+    <dimen name = "upload_bill_card_radius">12dp</dimen>
+    <dimen name = "upload_bill_card_elevation">5dp</dimen>
+    <dimen name="upload_bill_image_container_height">111dp</dimen>
+
+    <dimen name="reward_text_size">10sp</dimen>
+
+</resources>

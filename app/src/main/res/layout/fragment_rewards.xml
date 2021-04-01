@@ -1,0 +1,157 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_gray"
+    tools:context="com.kf.regreen.regreenproject.Fragments.Rewards">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_color_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rel_top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/profile_points_orange"
+                android:padding="@dimen/dimen_10">
+
+                <TextView
+                    android:id="@+id/txtWelComeBonusTenPer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/wel_10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/reward_size"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtWelComeBonusTenPer"
+                    android:layout_centerHorizontal="true"
+                    android:text="Nursery Reward Program"
+                    android:textSize="@dimen/reward_size"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/rel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel_top_layout"
+                android:weightSum="3">
+
+                <RelativeLayout
+                    android:id="@+id/rel_upload_bill"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:background="@color/profile_arrow_orange"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imgUploadBill"
+                        android:layout_width="@dimen/image_height"
+                        android:layout_height="@dimen/image_height"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="@dimen/margins"
+                        android:src="@mipmap/upload_bill" />
+
+                    <TextView
+                        android:id="@+id/txtUploadBill"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imgUploadBill"
+                        android:layout_centerHorizontal="true"
+                        android:text="Upload bill"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/reward_text_size" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel_white"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/rel_upload_bill"
+                    android:layout_weight="1.2"
+                    android:background="@drawable/right_shadow"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtMyRewards"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/dimen_20"
+                        android:text="My Reward Points"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/reward_text_size" />
+
+                    <TextView
+                        android:id="@+id/txtRewardsGbill"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtMyRewards"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="@dimen/margins"
+                        android:text="0"
+                        android:textSize="@dimen/reward_size" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel_redeem_now"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/rel_white"
+                    android:layout_weight="0.9"
+                    android:background="@color/white"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imgRedeem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="@dimen/margins"
+                        android:rotationX="180"
+                        android:src="@mipmap/reddemorange" />
+
+                    <TextView
+                        android:id="@+id/txtRedeem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgRedeem"
+                        android:layout_centerHorizontal="true"
+                        android:text="Redeem Now"
+                        android:textColor="@color/profile_arrow_orange"
+                        android:textSize="@dimen/reward_text_size" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerRewards"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rel_btn"
+                android:layout_marginTop="@dimen/dimen_10" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

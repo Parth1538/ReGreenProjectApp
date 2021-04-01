@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="buttons_color">#4CAF50</color>
+    <color name="common_gray">#d3d3d3</color>
+    <color name="white">#ffffff</color>
+    <color name="already_acc">#8b8b8b</color>
+    <color name="green_color">#4CAF50</color>
+
+    <color name="colorPrimary">#4CAF50</color>
+
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <!--<color name="buttons_color">#84CC4F</color>-->
+    <!--<color name="common_gray">#d3d3d3</color>-->
+
+    <color name="fragment_1_color">#21bf46</color>
+    <color name="fragment_2_color">#EFC19D</color>
+    <color name="fragment_3_color">#7288FF</color>
+    <color name="profile_arrow_orange">#FF741F</color>
+    <color name="profile_points_orange">#ff5622</color>
+    <color name="grey_color_bg">#f3f3f3</color>
+
+    <color name="btn_disabled">#999</color>
+    <color name="lbl_value">#222222</color>
+    <color name="light_gray">#F2F3F4</color>
+    <color name="grey_bg_plants">#E3E3E3</color>
+
+    //blur colors
+    <color name="blur_profile_arrow_orange">#66FF741F</color>
+    <color name="blur_profile_points_orange">#66ff5622</color>
+    <color name="blur_common_black">#66000000</color>
+
+    <color name="black50">#80000000</color>
+    <color name="primary_text">#212121</color>
+    <color name="multiselect_done">#388e3c</color>
+    <color name="error_text">#b71c1c</color>
+</resources>

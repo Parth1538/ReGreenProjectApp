@@ -1,0 +1,86 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="layout_margin">15dp</dimen>
+    <dimen name="main_layoutframe_margin">20dp</dimen>
+
+    <!--&lt;!&ndash;Login screen&ndash;&gt;
+    <dimen name="reg_main_top_background">300dp</dimen>
+    <dimen name="reg_main_right_background">36dp</dimen>
+    <dimen name="reg_main_height_background">660dp</dimen>
+    <dimen name="reg_other_margin_top">30dp</dimen>
+
+
+    <dimen name="reg_image_background_margin_top">90dp</dimen>
+    <dimen name="reg_image_background_height">210dp</dimen>
+    <dimen name="reg_margin_fb_image">276dp</dimen>
+    <dimen name="reg_margin_tweeter_image">129dp</dimen>
+    <dimen name="or_line_view_width">450dp</dimen>
+    <dimen name="or_view_margin_top">24dp</dimen>-->
+
+    <!--Get bill-->
+    <dimen name="white_cont_width">144dp</dimen>
+    <dimen name="orang_cont_width">132dp</dimen>
+    <dimen name="image_height">51dp</dimen>
+    <dimen name="margins">5dp</dimen>
+    <dimen name="reward_size">21sp</dimen>
+    <dimen name="recycle_margin">15dp</dimen>
+    <dimen name="amt_text_size">18sp</dimen>
+    <dimen name="my_reward">14sp</dimen>
+    <dimen name="reward_height">101dp</dimen>
+
+    <!--Nursery-->
+    <dimen name="nur_info_txt">18sp</dimen>
+    <dimen name="nur_detail">13sp</dimen>
+
+
+    <!--Dashboard-->
+
+    <dimen name="db_header_height">70dp</dimen>
+    <dimen name="db_category_height_secondary">456dp</dimen>
+    <dimen name="capture_icon_size">70dp</dimen>
+
+    <integer name="broken_heart_width">720</integer>
+    <integer name="broken_heart_height">690</integer>
+
+    <integer name="app_logo_width">412</integer>
+    <integer name="app_logo_height">170</integer>
+
+    <dimen name="maintenance_textsize_12">17sp</dimen>
+    <dimen name="maintenance_textsize_14">19sp</dimen>
+    <dimen name="maintenance_textsize_20">23sp</dimen>
+
+    <!--Nursery-->
+    <dimen name="cardview_height">101dp</dimen>
+    <dimen name="ic_phone_height">32dp</dimen>
+
+    <!--UPLOAD BILL-->
+    <dimen name="upload_bill_card_height">540dp</dimen>
+    <dimen name="upload_bill_top_margin">20dp</dimen>
+    <dimen name="upload_bill_edt_top_margin">7dp</dimen>
+    <dimen name="upload_bill_text_size">21sp</dimen>
+    <dimen name="upload_bill_card_size">61dp</dimen>
+    <dimen name="upload_bill_margin">101dp</dimen>
+    <dimen name="upload_bill_margin_bottom">42dp</dimen>
+    <dimen name="upload_bill_button_margin_top">25dp</dimen>
+    <dimen name="upload_bill_image_container_height_width">131dp</dimen>
+    <dimen name="upload_bill_image_container_height">161dp</dimen>
+    <dimen name="upload_bill_image_container_margin_left">21dp</dimen>
+    <dimen name="upload_bill_image_container_margin_top">11dp</dimen>
+    <dimen name="upload_bill_title_text_size">19sp</dimen>
+    <dimen name="upload_bill_margin_top">54dp</dimen>
+    <dimen name="upload_bill_margin_right">41dp</dimen>
+    <dimen name="upload_bill_amount_margin_top">25dp</dimen>
+    <dimen name="upload_bill_amount_margin_left">21dp</dimen>
+    <dimen name="upload_edit_bill_amount_margin_left">21dp</dimen>
+    <dimen name="upload_edit_bill_amount_margin_top">15dp</dimen>
+    <dimen name="ic_cam_gal">48dp</dimen>
+    <dimen name="upload_bill_camera_margin_top">71dp</dimen>
+    <dimen name="upload_bill_camera_margin_bottom">41dp</dimen>
+    <dimen name = "upload_bill_card_radius">12dp</dimen>
+    <dimen name = "upload_bill_card_elevation">5dp</dimen>
+    <dimen name="spinner_height">48dp</dimen>
+    <dimen name="reward_text_size">16sp</dimen>
+
+
+</resources>

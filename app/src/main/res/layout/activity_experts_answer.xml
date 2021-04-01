@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/Theme.MyToolTheme">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlimageslider"
+                android:layout_width="fill_parent"
+                android:layout_height="270dp">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentTop="true" />
+
+                <com.viewpagerindicator.CirclePageIndicator
+                    android:id="@+id/indicator"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="bottom"
+                    android:padding="10dip"
+                    app:centered="true"
+                    app:fillColor="@color/colorPrimaryDark"
+                    app:pageColor="@color/colorPrimary"
+                    app:snap="false" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_20"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtquestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20"
+                    android:padding="6dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/fontsize_login" />
+
+                <EditText
+                    android:id="@+id/edtanswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="@dimen/dimen_20"
+                    android:background="@drawable/rounded_corner_button_common"
+                    android:gravity="left"
+                    android:hint="Answer"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textColorHint="@color/blur_common_black"
+                    android:textSize="@dimen/fontsize_login" />
+
+
+                <TextView
+                    android:id="@+id/txtsubmit"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginTop="@dimen/dimen_20"
+                    android:background="@drawable/signin_signup_button"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:padding="6dp"
+                    android:text="Submit"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/fontsize_login" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

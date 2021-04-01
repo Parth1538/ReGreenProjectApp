@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context="com.kf.regreen.regreenproject.Fragments.UploadBillFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:fillViewport="false">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/mainCardUploadBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/upload_bill_top_margin"
+            android:layout_marginLeft="@dimen/upload_bill_top_margin"
+            android:layout_marginRight="@dimen/upload_bill_top_margin"
+            android:layout_marginTop="@dimen/upload_bill_margin_right"
+            app:cardCornerRadius="@dimen/upload_bill_card_radius"
+            app:cardElevation="@dimen/upload_bill_card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dimen_20"
+                android:layout_marginRight="@dimen/dimen_20"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/uploadBillGallaryImageContainer"
+                        android:layout_width="@dimen/upload_bill_image_container_height_width"
+                        android:layout_height="@dimen/upload_bill_image_container_height"
+                        android:layout_marginLeft="@dimen/upload_bill_top_margin"
+                        android:layout_marginBottom="@dimen/dimen_10"
+                        android:layout_marginTop="@dimen/upload_bill_top_margin"
+                        app:cardCornerRadius="@dimen/upload_bill_card_radius"
+                        >
+
+                        <TextView
+                            android:id="@+id/txtCapturelabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:scaleType="centerCrop"
+                            android:text="Upload/click photo of your bill here"
+                            android:textSize="@dimen/upload_bill_text_size" />
+
+                        <ImageView
+                            android:id="@+id/imgCapturedBill"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:scaleType="centerCrop" />
+                    </android.support.v7.widget.CardView>
+
+                    <ImageView
+                        android:id="@+id/imgUploadBillCamera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/upload_bill_margin_right"
+                        android:layout_marginTop="@dimen/upload_bill_camera_margin_top"
+                        app:srcCompat="@mipmap/camera" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edtBillAmt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/upload_bill_card_size"
+                    android:ems="10"
+                    android:hint="@string/upload_bill_enter_bill_title"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="@dimen/upload_bill_top_margin" />
+
+                <Spinner
+                    android:id="@+id/spnNurseryName"
+                    style="@android:style/Widget.Material.Light.Spinner.Underlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spinner_height"
+                    android:layout_marginTop="@dimen/upload_bill_edt_top_margin"
+                    android:dropDownVerticalOffset="@dimen/spinner_height"
+                    android:spinnerMode="dropdown" />
+
+                <Button
+                    android:id="@+id/btnUploadBill"
+                    android:layout_width="@dimen/login_main_container_height"
+                    android:layout_height="@dimen/login_btn_height"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/dimen_10"
+                    android:layout_marginTop="@dimen/dimen_20"
+                    android:background="@drawable/signin_signup_button"
+                    android:text="@string/upload_bill_finish"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+</RelativeLayout>

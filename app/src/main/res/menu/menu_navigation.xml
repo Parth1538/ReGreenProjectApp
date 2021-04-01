@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_nursery"
+        android:icon="@mipmap/nursserry"
+        app:showAsAction="always|withText"
+        android:title="@string/tab_nursery" />
+    <item
+        android:id="@+id/action_experts"
+        android:icon="@mipmap/experts"
+        app:showAsAction="always|withText"
+        android:title="@string/tab_experts" />
+    <item
+        android:id="@+id/action_home"
+        android:icon="@mipmap/home"
+        app:showAsAction="always|withText"
+        android:title="@string/tab_home" />
+    <item
+        android:id="@+id/action_articles"
+        android:icon="@mipmap/article"
+        app:showAsAction="always|withText"
+        android:title="@string/tab_articles" />
+    <item
+        android:id="@+id/action_rewards"
+        android:icon="@mipmap/rewards"
+        app:showAsAction="always|withText"
+        android:title="@string/tab_rewards" />
+</menu>

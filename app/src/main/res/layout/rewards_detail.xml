@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/recycle_margin"
+        android:layout_marginLeft="@dimen/recycle_margin"
+        android:layout_marginRight="@dimen/recycle_margin">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgNurseryRewards"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/margins"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtNursaryNameRewards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginTop="@dimen/margins"
+                android:layout_toRightOf="@id/imgNurseryRewards"
+                android:text="Raj Plants"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/reward_size" />
+
+            <TextView
+                android:id="@+id/txtAmountRewards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtNursaryNameRewards"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginTop="@dimen/margins"
+                android:layout_toRightOf="@+id/imgNurseryRewards"
+                android:text="2000"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtAmountRewards"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginTop="@dimen/margins"
+                android:layout_toRightOf="@+id/imgNurseryRewards"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/txtmessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtdate"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginTop="@dimen/margins"
+                android:layout_toRightOf="@+id/imgNurseryRewards"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

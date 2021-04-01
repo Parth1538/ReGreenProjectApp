@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_2_color">
+    <include layout="@layout/commmon_center_text"
+        android:id="@+id/commonTextLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    </include>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardFragment2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_view_fragment_height"
+        android:layout_marginTop="@dimen/recycler_view_content_top_margin"
+        android:layout_marginLeft="@dimen/card_view_margin_left_right"
+        android:layout_marginRight="@dimen/card_view_margin_left_right"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="@dimen/card_view_fragment_elevation"
+        android:layout_below="@id/commonTextLayout">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgTopFrag2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/tut_3"
+                android:layout_marginTop="@dimen/login_btn_top_margin"/>
+            <TextView
+                android:id="@+id/txtCarePlantsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgTopFrag2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:text="@string/get_plants_text"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/welcome_size"/>
+            <TextView
+                android:id="@+id/txtCarePlantsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtCarePlantsText"
+                android:text="Buy plants from affiliated nurseries and get discount."
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:padding="@dimen/login_relativelayout_allpadding"/>
+
+            <RelativeLayout
+                android:id="@+id/btnSkipFrag2"
+                android:layout_width="@dimen/skip_width"
+                android:layout_height="@dimen/skip_height"
+                android:layout_marginLeft="@dimen/login_edittext_margin"
+                android:layout_marginRight="@dimen/login_edittext_margin"
+                android:layout_marginTop="21dp"
+                android:layout_marginBottom="@dimen/signin_top_margin"
+                android:background="@drawable/skip_button_2"
+                android:layout_below="@id/txtCarePlantsDescription"
+                android:layout_centerInParent="true"
+                >
+
+                <TextView
+                    android:id="@+id/txtFrag2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/skip"
+                    android:textSize="@dimen/fontsize_login"
+                    android:textColor="@android:color/white"
+                    android:layout_centerInParent="true"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

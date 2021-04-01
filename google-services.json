@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1059527013503",
+    "firebase_url": "https://regreenproject-65b2a.firebaseio.com",
+    "project_id": "regreenproject-65b2a",
+    "storage_bucket": "regreenproject-65b2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059527013503:android:549e6016ae77fb2d",
+        "android_client_info": {
+          "package_name": "com.kf.regreen.regreenproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059527013503-k5ss7rjfqtc9123299dpejrc4cfbsnt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kf.regreen.regreenproject",
+            "certificate_hash": "76adced5a18edc080713aba3c5b6ce4f4e3e4702"
+          }
+        },
+        {
+          "client_id": "1059527013503-a57eqtmtg3eu9kbk74o62o5p3rrhaqkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kf.regreen.regreenproject",
+            "certificate_hash": "2b0a5696350dee5b59216cf62c096b278e0821c7"
+          }
+        },
+        {
+          "client_id": "1059527013503-7k698tn0d5gl3i83n709ah2bo6t9at91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_FtdZoX4j3Pjg1izmS42vf3xispdmIQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059527013503-52jo4c2mh975u86q261ogf1k3i4ri9cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

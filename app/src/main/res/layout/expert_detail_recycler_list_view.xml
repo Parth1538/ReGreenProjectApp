@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    card_view:cardCornerRadius="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/toprecyclerContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/login_relativelayout_allpadding">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgRecycler"
+                android:layout_width="@dimen/expert_detail_image_height_width"
+                android:layout_height="@dimen/expert_detail_image_height_width"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/signup_bottom_margin"
+                android:layout_marginLeft="@dimen/login_relativelayout_allpadding"
+                android:src="@drawable/upload_photo"
+                />
+
+            <TextView
+                android:id="@+id/txtRecyclerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/imgRecycler"
+                android:text="Ravi Sharma"
+                android:textSize="@dimen/name_text"
+                android:textColor="@android:color/black"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/recycler_view_content_top_margin"
+                android:layout_marginLeft="@dimen/login_relativelayout_allpadding"/>
+
+            <TextView
+                android:id="@+id/txtRecyclerTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/imgRecycler"
+                android:text="8 mins"
+                android:textSize="@dimen/time_text"
+                android:textColor="@color/common_gray"
+                android:layout_below="@id/txtRecyclerName"
+                android:layout_marginLeft="@dimen/login_relativelayout_allpadding"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/recyclersecondContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toprecyclerContainer"
+            android:padding="@dimen/login_relativelayout_allpadding">
+
+            <TextView
+                android:id="@+id/txtRecyclerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/recyclerthirdContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recyclersecondContainer"
+            android:padding="@dimen/login_relativelayout_allpadding">
+            <ImageView
+                android:id="@+id/imgRecylerContent"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/recycler_image_height"
+                android:scaleType="fitXY"
+                android:src="@mipmap/tut_bg"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/recyclerfourthContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recyclerthirdContainer"
+            android:padding="@dimen/login_relativelayout_allpadding">
+            <RelativeLayout
+                android:id="@+id/likeContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true">
+                <ImageView
+                    android:id="@+id/imgLike"
+                    android:layout_width="51dp"
+                    android:layout_height="51dp"
+                    android:src="@drawable/heart"
+                    />
+                <TextView
+                    android:id="@+id/txtFav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Like"
+                    android:textColor="@color/common_gray"
+                    android:layout_toRightOf="@id/imgLike"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_relativelayout_allpadding"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/shareContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+                <ImageView
+                    android:id="@+id/imgShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/share"/>
+                <TextView
+                    android:id="@+id/txtShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Share"
+                    android:textColor="@color/common_gray"
+                    android:layout_toRightOf="@id/imgShare"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/login_relativelayout_allpadding"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
